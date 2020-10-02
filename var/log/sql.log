@@ -1,0 +1,37 @@
+NOTICE:  drop cascades to 3 other objects
+DETAIL:  drop cascades to view export_gn.v_utilisateurs_bib_organismes
+drop cascades to view export_gn.v_utilisateurs_t_roles
+drop cascades to table export_gn.cor_etude_protocole_dataset
+DROP SCHEMA
+CREATE SCHEMA
+psql:/home/joel/info/gnoo/data/export_gn/user.sql:3: NOTICE:  view "v_utilisateurs_bib_organismes" does not exist, skipping
+DROP VIEW
+CREATE VIEW
+psql:/home/joel/info/gnoo/data/export_gn/user.sql:18: NOTICE:  view "v_utilisateurs_t_roles" does not exist, skipping
+DROP VIEW
+CREATE VIEW
+SELECT 4
+psql:/home/joel/info/gnoo/data/fdw.sql:1: NOTICE:  extension "postgres_fdw" already exists, skipping
+CREATE EXTENSION
+psql:/home/joel/info/gnoo/data/fdw.sql:3: NOTICE:  drop cascades to 4 other objects
+DETAIL:  drop cascades to user mapping for dbadmin on server obsocc_server
+drop cascades to foreign table import_oo.cor_etude_protocole_dataset
+drop cascades to foreign table import_oo.v_utilisateurs_bib_organismes
+drop cascades to foreign table import_oo.v_utilisateurs_t_roles
+DROP SERVER
+CREATE SERVER
+CREATE USER MAPPING
+DROP SCHEMA
+CREATE SCHEMA
+IMPORT FOREIGN SCHEMA
+DELETE 1
+DELETE 1
+INSERT 0 1
+INSERT 0 1
+UPDATE 4
+ALTER TABLE
+INSERT 0 5
+INSERT 0 72
+INSERT 0 1
+INSERT 0 72
+ALTER TABLE
