@@ -1,3 +1,1 @@
-Check out this :file:`./link.rst`
-
-.. _relative link: otherdoc.rst
+`Python home page <http://www.python.org>`_
