@@ -1,1 +1,1 @@
-Link to link :ref:`link`
+Link to link :doc:./link.rst
