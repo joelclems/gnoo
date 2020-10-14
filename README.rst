@@ -1,1 +1,1 @@
-Link to link :ref:`rst_tutorial`
+Link to link :ref:`link`
