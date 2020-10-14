@@ -1,3 +1,3 @@
-Check out this `Link<relative link>`_.
+Check out this `otherdoc.rst`_.
 
-.. _relative link: link.rst
+.. _relative link: otherdoc.rst
