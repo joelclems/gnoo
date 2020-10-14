@@ -1,1 +1,1 @@
-Link to link :doc:`Link <link.rst>`
+:example:`Link <link.rst>`
